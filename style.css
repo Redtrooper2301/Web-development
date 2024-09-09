@@ -1,0 +1,24 @@
+.card {
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 4px 10px black;
+    transition: 0.1s ease-in 0.2s;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.desc {
+    padding: 0 2px 0 2px;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 20px rgb(32, 51, 218);
+    transform: scale(1.05);
+}
